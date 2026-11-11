@@ -1,20 +1,20 @@
 # HACS readiness
 
-The standalone source repository is [lmx566/water-purifier-card](https://github.com/lmx566/water-purifier-card). The HACS reference documentation was reviewed on **2026-11-08**. The **0.4.0 multilingual three-card candidate** has recorded local Chromium/WebKit results and targeted manual checks on Home Assistant Core 2026.3.1 / Frontend 20260304.0. The subsequent UV status text adjustment was source-reviewed without rerunning those suites. Successful official HACS validation has not been recorded; HACS installation/update, a full Release and default-catalog acceptance remain outstanding.
+The standalone source repository is [lmx566/water-purifier-card](https://github.com/lmx566/water-purifier-card). The HACS reference documentation was reviewed on **2026-11-08**. The **0.4.0 multilingual three-card candidate** has recorded local Chromium/WebKit results and targeted manual checks on Home Assistant Core 2026.3.1 / Frontend 20260304.0. The subsequent UV status text adjustment was source-reviewed without rerunning those suites. The [official HACS action passed 8/8 checks on 2026-11-11](https://github.com/lmx566/water-purifier-card/actions/runs/43011190220/attempts/2) for commit `ac9c5989e4872dc0e1d6d12c0faf0257abe607b9`; HACS installation/update, a full Release and default-catalog acceptance remain outstanding.
 
 ## Repository preparation
 
 | Requirement | Prepared / observed | Remaining evidence |
 | --- | --- | --- |
 | Public GitHub repository | Standalone source at [lmx566/water-purifier-card](https://github.com/lmx566/water-purifier-card), with the runtime and `.github` at the root | Keep the repository public and unarchived |
-| Metadata and Issues | Suggested description/topics and issue templates | Set public description/topics and enable Issues |
-| License | Standard MIT `LICENSE` | Confirm public repository detects the license |
+| Metadata and Issues | Description, topics, Issues and archive-status checks passed in the 2026-11-11 official run | Maintain public metadata and enabled Issues |
+| License | Standard MIT `LICENSE`; official license check passed on 2026-11-11 | Preserve the license |
 | Dashboard artifact | One root `water-purifier-card.js` registers all three cards; no external runtime assets; manually installed in HA | Clean installation and installation/update through HACS |
-| Manifest | Root `hacs.json` parsed locally; filename resolves to the root resource | Successful official validator result |
+| Manifest | Root `hacs.json` and its matching runtime filename passed the official validator on 2026-11-11 | Revalidate changes to the manifest or artifact |
 | Documentation | Repository-specific manual/HACS instructions, language/configuration examples, MQTT contract and validation record | Cover the remaining compatibility matrix and record actual HACS installation/update |
 | Localization | Eleven embedded locales; all three cards/editor exercised in Chromium and WebKit | Native-speaker review and complete real-HA language/formatting coverage |
 | Screenshot | README embeds a 0.4.0 Chromium capture of all three cards using synthetic readings, labeled as preceding the UV status text adjustment | Retain clear synthetic-data/revision captions; exclude household screenshots and identifiers |
-| Validation workflow | Official `hacs/action@main`, category `plugin`, no ignored checks; runs on pushes/pull requests | Record a successful run on the exact public candidate revision |
+| Validation workflow | Official `hacs/action@main`, category `plugin`, no ignored checks; [8/8 passed](https://github.com/lmx566/water-purifier-card/actions/runs/43011190220/attempts/2) for `ac9c5989e4872dc0e1d6d12c0faf0257abe607b9` | Require a passing run for the final release revision |
 | Release | Manual process documented | Reviewed full Release and HACS installation/update evidence |
 | Default catalog | No submission made | Follow current upstream inclusion process after prerequisites pass |
 
@@ -47,8 +47,9 @@ The automated suites above use synthetic HA data; the manual HA observations are
 - [ ] Check real HA history permissions, Recorder exclusions/retention, dashboard navigation and long-lived/background sessions.
 - [ ] Check physical mobile/touch devices, Companion apps, screen readers and additional HA/browser versions.
 - [ ] Verify installation/update from a public HACS custom Dashboard repository, including browser caching and saved configuration preservation.
-- [ ] Set public description/topics, enable Issues and confirm GitHub recognizes the MIT license.
-- [ ] Run the official HACS action successfully without ignored checks on the exact public revision, then create a full Release.
+- [x] Public description/topics, Issues, archive status and license checks passed in the [2026-11-11 official run](https://github.com/lmx566/water-purifier-card/actions/runs/43011190220/attempts/2).
+- [x] Official HACS action passed 8/8 checks without ignored checks for `ac9c5989e4872dc0e1d6d12c0faf0257abe607b9`.
+- [ ] Create a full Release only after the remaining release checks pass; confirm a successful official action for its exact revision.
 - [ ] Submit the default-catalog request only after prerequisites are satisfied; do not describe custom installation or a local test as catalog acceptance.
 
 ## Historical evidence

@@ -1,5 +1,11 @@
 # Frontend validation
 
+## Official HACS validation — 2026-11-11
+
+The official `hacs/action@main` workflow, category `plugin`, passed **8/8 repository checks** without ignored checks for commit `ac9c5989e4872dc0e1d6d12c0faf0257abe607b9`. Evidence: [workflow run 43011190220, attempt 2](https://github.com/lmx566/water-purifier-card/actions/runs/43011190220/attempts/2) and [validation job](https://github.com/lmx566/water-purifier-card/actions/runs/43011190220/job/130503902783).
+
+The initial attempt failed the repository-topics check. After valid topics were present, the rerun passed the topics, description, Issues, archive status, license, HACS manifest, information and image checks. No runtime code changed for this rerun. This validates repository requirements, not card behavior in HA; HACS installation/update, a full Release and default-catalog acceptance remain unverified. It does not rerun the frontend suites recorded below.
+
 ## Subsequent display adjustment — 2026-11-08
 
 After the recorded 0.4.0 validation, the small and medium cards' status areas were changed to omit the normal UV command suffix, keeping device status consistent across all three cards. Fault descriptions and unavailable states still use the existing state resolver; the full card retains its separate UV details. This display change was source-reviewed; no tests were rerun. The hashes and passing results below identify the preceding tested artifact, not this later revision.
@@ -8,7 +14,7 @@ After the recorded 0.4.0 validation, the small and medium cards' status areas we
 
 **The final candidate passed the functional, multilingual and responsive suites in Chromium and WebKit.** These suites use synthetic Home Assistant registries, states and history. A separate manual installation in real Home Assistant is described below; it is not part of the synthetic test counts.
 
-The user authorized testing the three HA cards and preparing publication after review. No ESP32 firmware was changed, compiled or flashed. No official HACS workflow, HACS installation/update, public repository publication, release or default-catalog submission was performed.
+The user authorized testing the three HA cards and preparing publication after review. No ESP32 firmware was changed, compiled or flashed. During that 2026-11-08 validation session, no official HACS workflow, HACS installation/update, public repository publication, release or default-catalog submission was performed. The later official workflow result is recorded above.
 
 ### Tested artifact and environment
 
@@ -84,7 +90,7 @@ The harnesses start and stop their own loopback servers. `CARD_BROWSER_PATH` may
 
 ### Remaining acceptance
 
-Remaining work includes a clean HA installation, a separately saved full card, actual MQTT expiry/reconnect behavior, all locale/regional preferences in real HA, other HA/browser versions, physical touch devices and Companion apps, screen readers, and native-speaker review. Public GitHub metadata, the official HACS action, custom-repository installation/update and a complete Release remain outstanding. See [HACS readiness](HACS-READINESS.md).
+Remaining work includes a clean HA installation, a separately saved full card, actual MQTT expiry/reconnect behavior, all locale/regional preferences in real HA, other HA/browser versions, physical touch devices and Companion apps, screen readers, and native-speaker review. Public GitHub metadata and the official HACS action passed on 2026-11-11 as recorded above. Custom-repository installation/update and a complete Release remain outstanding. See [HACS readiness](HACS-READINESS.md).
 
 ---
 

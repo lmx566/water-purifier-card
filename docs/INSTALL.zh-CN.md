@@ -12,7 +12,7 @@
 
 ## 方式一：通过 HACS 自定义仓库安装
 
-当前请使用自定义仓库方式，不要把教程写成已进入 HACS 默认收录列表。
+截至 2026-11-11，仓库已通过 [官方 HACS 检查（8/8）](https://github.com/lmx566/water-purifier-card/actions/runs/43011190220/attempts/2)。这项检查验证仓库要求，不代表已经实测 HACS 安装与升级，也不代表已进入默认收录列表。HACS 安装与升级仍未验证；下方手动安装方式已在 Home Assistant 中使用过。
 
 1. 打开 HACS，点击右上角菜单，进入「自定义仓库 / Custom repositories」。
 2. 仓库地址填写 `https://github.com/lmx566/water-purifier-card`。
