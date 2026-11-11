@@ -1,0 +1,25 @@
+name: Feature request
+description: Propose an improvement to the card.
+title: "[Feature] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What task is difficult today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: entities
+    attributes:
+      label: Available entities and states
+      description: If this uses new hardware data, show its sanitized entity state and unit.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered

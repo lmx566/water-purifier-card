@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-28T11:01:34.015Z",
+  "engine": "chromium",
+  "version": "156.0.8078.4",
+  "passed": 17,
+  "total": 17,
+  "results": [
+    {
+      "name": "Registration, automatic discovery and producing animation",
+      "passed": true
+    },
+    {
+      "name": "Idle and flushing, real zero and unknown recovery",
+      "passed": true
+    },
+    {
+      "name": "Fault, unavailable, disconnected and missing entity do not fabricate data",
+      "passed": true
+    },
+    {
+      "name": "More-info events and keyboard component details with focus return",
+      "passed": true
+    },
+    {
+      "name": "Hide overrides, compact layout and animation preference",
+      "passed": true
+    },
+    {
+      "name": "Visual editor changes, manual mapping, reminders and host config round-trip",
+      "passed": true
+    },
+    {
+      "name": "Phone/tablet layouts, dark theme, editor containment and demo captures",
+      "passed": true
+    },
+    {
+      "name": "Narrow dashboard columns reflow even on a desktop viewport",
+      "passed": true
+    },
+    {
+      "name": "Two devices, exact matching, explicit overrides and disabled/ambiguous entities",
+      "passed": true
+    },
+    {
+      "name": "Pending discovery cannot overwrite a later manual configuration",
+      "passed": true
+    },
+    {
+      "name": "Registry permission failure preserves manual data and offers retry",
+      "passed": true
+    },
+    {
+      "name": "Reconnect refreshes renamed entities and disconnect stops animation",
+      "passed": true
+    },
+    {
+      "name": "Reattachment refreshes registry changes missed while dashboard was closed",
+      "passed": true
+    },
+    {
+      "name": "Invalid data, optional entity availability, escaping and configuration rejection",
+      "passed": true
+    },
+    {
+      "name": "Editor reattachment refreshes device names changed while detached",
+      "passed": true
+    },
+    {
+      "name": "Module resource loading and public card/editor interfaces",
+      "passed": true
+    },
+    {
+      "name": "No uncaught browser errors or external resource requests",
+      "passed": true
+    }
+  ]
+}

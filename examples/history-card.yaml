@@ -1,0 +1,36 @@
+# Medium history card. Uses the SAME resource file as the full and small cards.
+# Register water-purifier-card.js?v=0.4.0 only once.
+# Replace these example entity IDs, or select a WATER device in the editor.
+type: custom:water-purifier-history-card
+title: Kitchen water # Custom text; remove this line for the translated default title.
+language: auto # Follow the current HA user; or choose en, zh-Hans, zh-Hant, de, fr, es, it, nl, pt-BR, ja, ko.
+layout: medium
+show_history: true
+history_hours: 6
+dashboard_url: http://192.0.2.1/ui/
+entities:
+  state: sensor.kitchen_water_control_state
+  fault: sensor.kitchen_water_fault
+  product_tds: sensor.kitchen_water_product_tds
+  feed_tds: sensor.kitchen_water_feed_tds
+  # Cumulative counters: NOT today's figures or the six-hour chart window.
+  water_total: sensor.kitchen_water_product_water_total
+  waste_total: sensor.kitchen_water_waste_water_total
+  production_hours: sensor.kitchen_water_production_time
+  starts: sensor.kitchen_water_production_starts
+  uv_enabled: sensor.kitchen_water_uv_led_enabled
+  uv: sensor.kitchen_water_uv_led_output_command
+  uv_status: sensor.kitchen_water_uv_led_status
+# Names must match your actual filter installation. The medium card has no
+# circuit and does not need stage mappings. Reminder enums are not life gauges.
+filters:
+  - name: PP sediment
+    entity: sensor.kitchen_water_filter_1_reminder
+  - name: UDF carbon
+    entity: sensor.kitchen_water_filter_2_reminder
+  - name: CTO carbon
+    entity: sensor.kitchen_water_filter_3_reminder
+  - name: RO membrane
+    entity: sensor.kitchen_water_filter_4_reminder
+  - name: T33 post carbon
+    entity: sensor.kitchen_water_filter_5_reminder

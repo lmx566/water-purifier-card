@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1050" viewBox="0 0 720 1050" role="img" aria-labelledby="title desc">
+<title id="title">Water Purifier Card — design preview</title><desc id="desc">An authored illustration of the English card. All values are examples, not device measurements or a rendered browser screenshot.</desc>
+<defs><style>text{font-family:Arial,sans-serif;fill:#173448}.muted{fill:#5e7282}.blue{fill:#1778b5}.small{font-size:11px}.label{font-size:12px}.pipe{fill:none;stroke:#b9d5e8;stroke-width:5;stroke-linejoin:round;stroke-linecap:round}.flow{fill:none;stroke:#1778b5;stroke-width:2.5;stroke-dasharray:4 13;stroke-linecap:round}.body{fill:white;stroke:#1778b5;stroke-width:1.5}.detail{fill:none;stroke:#1778b5;stroke-width:1.25}.part text{text-anchor:middle;font-size:12px;font-weight:600}.part .sub{fill:#5e7282;font-size:10px;font-weight:400}</style></defs>
+<rect width="720" height="1050" fill="#edf2f5"/>
+<text x="40" y="32" class="muted small">DESIGN PREVIEW · EXAMPLE DATA · NOT A RUNTIME SCREENSHOT</text>
+<rect x="40" y="52" width="640" height="946" rx="12" fill="white" stroke="#dce6ed"/>
+<path d="M77 76c-4 7-10 13-10 18a10 10 0 0 0 20 0c0-5-6-11-10-18Z" fill="none" stroke="#1778b5" stroke-width="1.8"/>
+<text x="103" y="86" font-size="17" font-weight="600">Kitchen water</text><text x="103" y="107" class="muted small">WATER CIRCUIT · READ ONLY</text>
+<circle cx="539" cy="87" r="3" fill="#1778b5"/><text x="551" y="91" class="blue small">Producing water</text>
+<path d="M62 128H658" stroke="#dce6ed"/>
+<text x="62" y="159" class="muted small" letter-spacing=".4">FEED WATER TDS</text><text x="62" y="211" font-size="42">186</text><text x="140" y="211" class="muted label">ppm</text>
+<text x="374" y="159" class="muted small" letter-spacing=".4">PRODUCT WATER TDS</text><text x="374" y="211" font-size="42" class="blue">8</text><text x="411" y="211" class="muted label">ppm</text>
+<path d="M62 244H658" stroke="#dce6ed"/>
+<rect x="41" y="245" width="638" height="394" fill="#f3f7fa"/>
+<text x="62" y="273" class="label">Five-stage filtration</text><text x="658" y="273" text-anchor="end" class="muted small">Tap a component to inspect</text>
+<g transform="translate(60 286)">
+<path class="pipe" d="M25 87H548V222H45M457 238V278H564"/><path class="flow" d="M25 87H548V222H45M457 238V278H564"/>
+<text x="22" y="51" class="muted" font-size="10">FEED</text><text x="24" y="263" class="muted" font-size="10">PRODUCT</text><text x="477" y="303" class="muted" font-size="10">CONCENTRATE</text>
+<g class="part" transform="translate(126 87)"><path class="body" d="M-23-28v48c0 13 46 13 46 0v-48Z"/><ellipse class="body" cy="-28" rx="23" ry="8"/><path class="detail" d="M-23 15c0 12 46 12 46 0"/><text y="-1">PP</text><text class="sub" y="53">SEDIMENT</text></g>
+<g class="part" transform="translate(291 87)"><path class="body" d="M-23-28v48c0 13 46 13 46 0v-48Z"/><ellipse class="body" cy="-28" rx="23" ry="8"/><path class="detail" d="M-23 15c0 12 46 12 46 0"/><text y="-1">UDF</text><text class="sub" y="53">CARBON</text></g>
+<g class="part" transform="translate(456 87)"><path class="body" d="M-23-28v48c0 13 46 13 46 0v-48Z"/><ellipse class="body" cy="-28" rx="23" ry="8"/><path class="detail" d="M-23 15c0 12 46 12 46 0"/><text y="-1">CTO</text><text class="sub" y="53">CARBON BLOCK</text></g>
+<g class="part"><path class="body" d="m31 78 16 9-16 9Zm32 0-16 9 16 9Z"/><path class="detail" d="M47 87V69h10V59H37v10h10"/><circle class="body" cx="548" cy="155" r="18"/><path class="detail" d="m537 148 21 7-21 7Z"/><text class="sub" x="510" y="159">PUMP</text></g>
+<g class="part"><rect class="body" x="388" y="206" width="84" height="32" rx="16"/><ellipse class="detail" cx="457" cy="222" rx="10" ry="16"/><text x="419" y="226">RO</text><text class="sub" x="430" y="260">MEMBRANE</text></g>
+<g class="part" transform="translate(260 222)"><path class="body" d="M-23-28v48c0 13 46 13 46 0v-48Z"/><ellipse class="body" cy="-28" rx="23" ry="8"/><path class="detail" d="M-23 15c0 12 46 12 46 0"/><text y="-1">POST</text><text class="sub" y="53">POST CARBON</text></g>
+<path class="detail" d="M95 222v-18H78v-13h15v13m-15 0H65v14m7-31h25"/><path class="body" d="M65 228c-7 8-7 13 0 13s7-5 0-13Z"/>
+<path class="body" d="m522 270 14 8-14 8Zm28 0-14 8 14 8Z"/><path class="detail" d="M536 278v-15m-7-4h14"/>
+</g>
+<text x="62" y="623" class="muted" font-size="10">Animation follows controller phase, not measured flow or valve position.</text>
+<text x="62" y="671" class="muted small">Product flow</text><text x="62" y="699" font-size="20">1.24</text><text x="108" y="699" class="muted small">L/min</text>
+<text x="220" y="671" class="muted small">Product total</text><text x="220" y="699" font-size="20">428.6</text><text x="277" y="699" class="muted small">L</text>
+<text x="378" y="671" class="muted small">RO recovery</text><text x="378" y="699" font-size="20">66.7</text><text x="427" y="699" class="muted small">%</text>
+<text x="536" y="671" class="muted small">Product temperature</text><text x="536" y="699" font-size="20">22.6</text><text x="581" y="699" class="muted small">°C</text>
+<path d="M62 723H658" stroke="#dce6ed"/>
+<text x="62" y="752" class="label">Filter reminders</text>
+<g class="label"><text x="65" y="785" class="muted">01</text><text x="101" y="785">Filter 1</text><text x="657" y="785" text-anchor="end" class="muted">Within plan limits</text><path d="M62 799H658" stroke="#dce6ed"/>
+<text x="65" y="823" class="muted">02</text><text x="101" y="823">Filter 2</text><text x="657" y="823" text-anchor="end" class="muted">Within plan limits</text><path d="M62 837H658" stroke="#dce6ed"/>
+<text x="65" y="861" class="muted">03</text><text x="101" y="861">Filter 3</text><text x="657" y="861" text-anchor="end" class="muted">Date unknown</text><path d="M62 875H658" stroke="#dce6ed"/>
+<text x="65" y="899" class="muted">04</text><text x="101" y="899">Filter 4</text><text x="657" y="899" text-anchor="end" fill="#9b6c18">Replacement due</text></g>
+<text x="62" y="929" class="muted" font-size="10">Reminders follow configured plans; plan numbers are not stage positions.</text>
+<path d="M41 950H679" stroke="#dce6ed"/>
+<text x="62" y="979" class="muted small">Home Assistant entities</text><text x="658" y="979" text-anchor="end" class="blue small">State details ↗</text>
+<text x="40" y="1026" class="muted small">Full / compact · Configurable entity mappings · English UI · No device commands</text>
+</svg>

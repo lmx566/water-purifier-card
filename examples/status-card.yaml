@@ -1,0 +1,19 @@
+# Small status card. Uses the SAME resource file as the full and medium cards.
+# Register water-purifier-card.js?v=0.4.0 only once.
+# Replace these example entity IDs, or remove entities and select a WATER device
+# in the common visual editor. A HA device registry ID is not water_<MAC>.
+type: custom:water-purifier-status-card
+title: Kitchen water # Custom text; remove this line for the translated default title.
+language: auto # Follow the current HA user; or choose en, zh-Hans, zh-Hant, de, fr, es, it, nl, pt-BR, ja, ko.
+layout: small
+dashboard_url: http://192.0.2.1/ui/
+entities:
+  state: sensor.kitchen_water_control_state
+  fault: sensor.kitchen_water_fault
+  product_tds: sensor.kitchen_water_product_tds
+  flow: sensor.kitchen_water_product_flow_rate
+  uv_enabled: sensor.kitchen_water_uv_led_enabled
+  uv: sensor.kitchen_water_uv_led_output_command
+  uv_status: sensor.kitchen_water_uv_led_status
+# No Recorder requests are made for the small layout.
+# The card sends no start/stop or other device-control command.

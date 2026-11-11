@@ -1,0 +1,158 @@
+{
+  "scope": "Synthetic HA, local-only browser; no real HA or device connection",
+  "engine": "webkit",
+  "browser": "26.5",
+  "sourceSha256": "6200771e9de834adc4a17e693007605bd34b25e567404ec21ab6ef10ebcf0d1b",
+  "catalogKeys": 257,
+  "languages": [
+    "en",
+    "zh-Hans",
+    "zh-Hant",
+    "de",
+    "fr",
+    "es",
+    "it",
+    "nl",
+    "pt-BR",
+    "ja",
+    "ko"
+  ],
+  "passed": 33,
+  "failed": 0,
+  "errors": [],
+  "external": [],
+  "results": [
+    {
+      "name": "All 11 dictionaries have the same keys and interpolation tokens",
+      "passed": true
+    },
+    {
+      "name": "en: three cards and editor follow HA language with localized state/history/labels",
+      "passed": true
+    },
+    {
+      "name": "zh-Hans: three cards and editor follow HA language with localized state/history/labels",
+      "passed": true
+    },
+    {
+      "name": "zh-Hant: three cards and editor follow HA language with localized state/history/labels",
+      "passed": true
+    },
+    {
+      "name": "de: three cards and editor follow HA language with localized state/history/labels",
+      "passed": true
+    },
+    {
+      "name": "fr: three cards and editor follow HA language with localized state/history/labels",
+      "passed": true
+    },
+    {
+      "name": "es: three cards and editor follow HA language with localized state/history/labels",
+      "passed": true
+    },
+    {
+      "name": "it: three cards and editor follow HA language with localized state/history/labels",
+      "passed": true
+    },
+    {
+      "name": "nl: three cards and editor follow HA language with localized state/history/labels",
+      "passed": true
+    },
+    {
+      "name": "pt-BR: three cards and editor follow HA language with localized state/history/labels",
+      "passed": true
+    },
+    {
+      "name": "ja: three cards and editor follow HA language with localized state/history/labels",
+      "passed": true
+    },
+    {
+      "name": "ko: three cards and editor follow HA language with localized state/history/labels",
+      "passed": true
+    },
+    {
+      "name": "Live locale changes update all layouts and editor; each card override stays independent",
+      "passed": true
+    },
+    {
+      "name": "Chinese region/script aliases, Portuguese regions and unsupported profile fallback",
+      "passed": true
+    },
+    {
+      "name": "Invalid configured locale is rejected; absent HA locale uses browser locale",
+      "passed": true
+    },
+    {
+      "name": "Custom titles and filter names survive language changes unchanged, including default-looking strings",
+      "passed": true
+    },
+    {
+      "name": "Editor locale hot switch preserves unsaved reminder draft, focus, selection and open groups",
+      "passed": true
+    },
+    {
+      "name": "Editor locale hot switch preserves an incomplete manual mapping without committing it",
+      "passed": true
+    },
+    {
+      "name": "Editor override changes and host config echo preserve reminder drafts and entity IDs",
+      "passed": true
+    },
+    {
+      "name": "HA number format comma_decimal overrides presentation language consistently",
+      "passed": true
+    },
+    {
+      "name": "HA number format decimal_comma overrides presentation language consistently",
+      "passed": true
+    },
+    {
+      "name": "HA number format space_comma overrides presentation language consistently",
+      "passed": true
+    },
+    {
+      "name": "HA number format quote_decimal overrides presentation language consistently",
+      "passed": true
+    },
+    {
+      "name": "HA number format none overrides presentation language consistently",
+      "passed": true
+    },
+    {
+      "name": "HA number format language overrides presentation language consistently",
+      "passed": true
+    },
+    {
+      "name": "HA number format system overrides presentation language consistently",
+      "passed": true
+    },
+    {
+      "name": "Recorded history respects 12h and America/New_York",
+      "passed": true
+    },
+    {
+      "name": "Recorded history respects 24h and Asia/Tokyo",
+      "passed": true
+    },
+    {
+      "name": "Recorded history respects 24h and browser local timezone",
+      "passed": true
+    },
+    {
+      "name": "Localized errors and unknown/unavailable/disabled/not-fitted remain distinct",
+      "passed": true
+    },
+    {
+      "name": "UV commanded state is translated without claiming disinfection or sensor confirmation",
+      "passed": true
+    },
+    {
+      "name": "Unknown firmware values and hostile names/units are escaped, never translated or executed",
+      "passed": true
+    },
+    {
+      "name": "No browser exceptions or external network attempts",
+      "passed": true
+    }
+  ]
+}

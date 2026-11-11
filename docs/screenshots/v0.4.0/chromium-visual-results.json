@@ -1,0 +1,156 @@
+{
+  "date": "2026-11-08T03:25:49.965Z",
+  "engine": "chromium",
+  "browser": "156.0.8078.4",
+  "playwright": "1.62.1",
+  "node": "v24.5.0",
+  "sourceHash": "6200771e9de834adc4a17e693007605bd34b25e567404ec21ab6ef10ebcf0d1b",
+  "passed": 36,
+  "total": 36,
+  "results": [
+    {
+      "name": "en: small containment at 280/320/360/390/480/680/900 px",
+      "passed": true
+    },
+    {
+      "name": "en: medium containment at 280/320/360/390/480/680/900 px",
+      "passed": true
+    },
+    {
+      "name": "en: full containment at 280/320/360/390/480/680/900 px",
+      "passed": true
+    },
+    {
+      "name": "zh-Hans: small containment at 280/320/360/390/480/680/900 px",
+      "passed": true
+    },
+    {
+      "name": "zh-Hans: medium containment at 280/320/360/390/480/680/900 px",
+      "passed": true
+    },
+    {
+      "name": "zh-Hans: full containment at 280/320/360/390/480/680/900 px",
+      "passed": true
+    },
+    {
+      "name": "zh-Hant: small containment at 280/320/360/390/480/680/900 px",
+      "passed": true
+    },
+    {
+      "name": "zh-Hant: medium containment at 280/320/360/390/480/680/900 px",
+      "passed": true
+    },
+    {
+      "name": "zh-Hant: full containment at 280/320/360/390/480/680/900 px",
+      "passed": true
+    },
+    {
+      "name": "de: small containment at 280/320/360/390/480/680/900 px",
+      "passed": true
+    },
+    {
+      "name": "de: medium containment at 280/320/360/390/480/680/900 px",
+      "passed": true
+    },
+    {
+      "name": "de: full containment at 280/320/360/390/480/680/900 px",
+      "passed": true
+    },
+    {
+      "name": "fr: small containment at 280/320/360/390/480/680/900 px",
+      "passed": true
+    },
+    {
+      "name": "fr: medium containment at 280/320/360/390/480/680/900 px",
+      "passed": true
+    },
+    {
+      "name": "fr: full containment at 280/320/360/390/480/680/900 px",
+      "passed": true
+    },
+    {
+      "name": "es: small containment at 280/320/360/390/480/680/900 px",
+      "passed": true
+    },
+    {
+      "name": "es: medium containment at 280/320/360/390/480/680/900 px",
+      "passed": true
+    },
+    {
+      "name": "es: full containment at 280/320/360/390/480/680/900 px",
+      "passed": true
+    },
+    {
+      "name": "it: small containment at 280/320/360/390/480/680/900 px",
+      "passed": true
+    },
+    {
+      "name": "it: medium containment at 280/320/360/390/480/680/900 px",
+      "passed": true
+    },
+    {
+      "name": "it: full containment at 280/320/360/390/480/680/900 px",
+      "passed": true
+    },
+    {
+      "name": "nl: small containment at 280/320/360/390/480/680/900 px",
+      "passed": true
+    },
+    {
+      "name": "nl: medium containment at 280/320/360/390/480/680/900 px",
+      "passed": true
+    },
+    {
+      "name": "nl: full containment at 280/320/360/390/480/680/900 px",
+      "passed": true
+    },
+    {
+      "name": "pt-BR: small containment at 280/320/360/390/480/680/900 px",
+      "passed": true
+    },
+    {
+      "name": "pt-BR: medium containment at 280/320/360/390/480/680/900 px",
+      "passed": true
+    },
+    {
+      "name": "pt-BR: full containment at 280/320/360/390/480/680/900 px",
+      "passed": true
+    },
+    {
+      "name": "ja: small containment at 280/320/360/390/480/680/900 px",
+      "passed": true
+    },
+    {
+      "name": "ja: medium containment at 280/320/360/390/480/680/900 px",
+      "passed": true
+    },
+    {
+      "name": "ja: full containment at 280/320/360/390/480/680/900 px",
+      "passed": true
+    },
+    {
+      "name": "ko: small containment at 280/320/360/390/480/680/900 px",
+      "passed": true
+    },
+    {
+      "name": "ko: medium containment at 280/320/360/390/480/680/900 px",
+      "passed": true
+    },
+    {
+      "name": "ko: full containment at 280/320/360/390/480/680/900 px",
+      "passed": true
+    },
+    {
+      "name": "Long custom titles, unknown fault identifiers and large counters stay inside cards",
+      "passed": true
+    },
+    {
+      "name": "Preview and expanded editor fit 320/375/768 px viewport",
+      "passed": true
+    },
+    {
+      "name": "No page errors or external resource requests",
+      "passed": true
+    }
+  ]
+}

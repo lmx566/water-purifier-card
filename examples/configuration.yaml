@@ -1,0 +1,47 @@
+# Full card. Register water-purifier-card.js?v=0.4.0 once for all three card types.
+# See status-card.yaml and history-card.yaml for the two additional cards.
+# Replace every illustrative entity ID with the actual ID shown in Home Assistant.
+# For automatic matching, choose a WATER device in the visual editor instead.
+# The firmware water_<MAC> identifier is NOT a HA device registry ID.
+type: custom:water-purifier-card
+title: Kitchen water # Custom text; remove this line for the translated default title.
+language: auto # Follow the current HA user; or choose en, zh-Hans, zh-Hant, de, fr, es, it, nl, pt-BR, ja, ko.
+layout: full
+animate: true
+show_history: true
+history_hours: 1
+dashboard_url: http://192.0.2.1/ui/
+entities:
+  state: sensor.kitchen_water_control_state
+  fault: sensor.kitchen_water_fault
+  feed_tds: sensor.kitchen_water_feed_tds
+  product_tds: sensor.kitchen_water_product_tds
+  product_temperature: sensor.kitchen_water_product_temperature
+  flow: sensor.kitchen_water_product_flow_rate
+  waste_flow: sensor.kitchen_water_waste_flow_rate
+  water_total: sensor.kitchen_water_product_water_total
+  waste_total: sensor.kitchen_water_waste_water_total
+  production_hours: sensor.kitchen_water_production_time
+  starts: sensor.kitchen_water_production_starts
+  recovery: sensor.kitchen_water_ro_recovery_ratio
+  uv_enabled: sensor.kitchen_water_uv_led_enabled
+  uv: sensor.kitchen_water_uv_led_output_command
+  uv_status: sensor.kitchen_water_uv_led_status
+# These stage assignments describe this project's PP/UDF/CTO/RO/T33 installation.
+# They are not inferred from slot numbers. Adjust them for your actual filters.
+filters:
+  - name: PP
+    entity: sensor.kitchen_water_filter_1_reminder
+    stage: pp
+  - name: UDF
+    entity: sensor.kitchen_water_filter_2_reminder
+    stage: udf
+  - name: CTO
+    entity: sensor.kitchen_water_filter_3_reminder
+    stage: cto
+  - name: RO
+    entity: sensor.kitchen_water_filter_4_reminder
+    stage: ro
+  - name: T33
+    entity: sensor.kitchen_water_filter_5_reminder
+    stage: post

@@ -1,0 +1,134 @@
+{
+  "date": "2026-11-08T03:28:48.315Z",
+  "engine": "webkit",
+  "version": "26.5",
+  "card_version": "0.4.0",
+  "source_sha256": "6200771e9de834adc4a17e693007605bd34b25e567404ec21ab6ef10ebcf0d1b",
+  "scope": "Three HA cards, synthetic local registry/history only; no ESP32 or real HA connection",
+  "passed": 24,
+  "total": 24,
+  "errors": [],
+  "external": [],
+  "results": [
+    {
+      "name": "Three registered card types load and discover the same synthetic device",
+      "passed": true,
+      "duration_ms": 267
+    },
+    {
+      "name": "Standby, flushing and real zero retain accurate output semantics",
+      "passed": true,
+      "duration_ms": 130
+    },
+    {
+      "name": "UV fault, disabled UV and unavailable or missing readings stay explicit",
+      "passed": true,
+      "duration_ms": 196
+    },
+    {
+      "name": "Filter reminders distinguish due, within limits, disabled, unknown and unregistered",
+      "passed": true,
+      "duration_ms": 150
+    },
+    {
+      "name": "More-info and keyboard circuit details open read-only UI and return focus",
+      "passed": true,
+      "duration_ms": 287
+    },
+    {
+      "name": "Selected-card hide overrides, motion preferences and theme do not affect sibling cards",
+      "passed": true,
+      "duration_ms": 317
+    },
+    {
+      "name": "Preview language and editor override affect each card independently",
+      "passed": true,
+      "duration_ms": 283
+    },
+    {
+      "name": "Visual editor manual mappings, draft preservation, custom filters and config round-trip",
+      "passed": true,
+      "duration_ms": 450
+    },
+    {
+      "name": "Preview history modes expose recorded gaps, empty history and errors honestly",
+      "passed": true,
+      "duration_ms": 116
+    },
+    {
+      "name": "Exact registry identity, explicit overrides, hidden and ambiguous entities",
+      "passed": true,
+      "duration_ms": 72
+    },
+    {
+      "name": "Stale registry responses cannot overwrite a newer manual configuration",
+      "passed": true,
+      "duration_ms": 15
+    },
+    {
+      "name": "Registry permission errors preserve mapped readings and retry can recover",
+      "passed": true,
+      "duration_ms": 60
+    },
+    {
+      "name": "Disconnect, reconnect and reattachment refresh registry without leaked listeners",
+      "passed": true,
+      "duration_ms": 43
+    },
+    {
+      "name": "Unavailable phase hides retained values on small/medium cards and unknown enums stay raw",
+      "passed": true,
+      "duration_ms": 27
+    },
+    {
+      "name": "Invalid numeric states, literal zero and untrusted text cannot create markup",
+      "passed": true,
+      "duration_ms": 36
+    },
+    {
+      "name": "Automatic filter slots hide not-fitted while explicit lists and stage mappings remain authoritative",
+      "passed": true,
+      "duration_ms": 60
+    },
+    {
+      "name": "History requests are read-only, bounded to selected entity and configured window",
+      "passed": true,
+      "duration_ms": 39
+    },
+    {
+      "name": "History opt-out and small layout never call the API even with show_history true",
+      "passed": true,
+      "duration_ms": 39
+    },
+    {
+      "name": "Pending history is deduplicated, and stale results cannot replace a new entity",
+      "passed": true,
+      "duration_ms": 19
+    },
+    {
+      "name": "Removing or disconnecting the card prevents further history polling",
+      "passed": true,
+      "duration_ms": 13
+    },
+    {
+      "name": "History gap/invalid/empty responses and latest unavailable data do not fabricate continuity",
+      "passed": true,
+      "duration_ms": 24
+    },
+    {
+      "name": "User links use safe URLs and native more-info without sending control services",
+      "passed": true,
+      "duration_ms": 73
+    },
+    {
+      "name": "Editor refreshes registry names after reattachment and module public APIs work",
+      "passed": true,
+      "duration_ms": 29
+    },
+    {
+      "name": "No uncaught browser exceptions, service writes or non-local network requests",
+      "passed": true,
+      "duration_ms": 1
+    }
+  ]
+}

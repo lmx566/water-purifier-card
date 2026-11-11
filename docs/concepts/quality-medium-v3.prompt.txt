@@ -1,0 +1,20 @@
+Use case: ui-mockup / precise-object-edit.
+Edit the attached medium Home Assistant water-purifier UI card to explore HISTORICAL USAGE instead of the live-flow metrics strip. Preserve its white/light design, 480 × 300 intended CSS-pixel size, restrained blue accent, dark numbers, excellent baseline alignment, title, TDS readout with feed comparison, 6-hour TDS trend and bottom filter-reminder layout. No water circuit.
+Deliver ONE flat front-on refined card, enlarged for inspection on a pale gray canvas, with modest margins. Same proportions and visual family as the reference. All text English, no logos.
+Changes:
+- Replace the entire middle row currently labeled Product flow / Waste flow / RO recovery / UV output with a compact historical-usage section.
+- This new section has a small unobtrusive title "Usage history" at left and a muted scope label "Cumulative" at right. This scope applies ONLY to the four totals, not to the 6-hour chart above.
+- Below that heading place FOUR well-balanced columns in the same continuous white surface, with thin short separators, no separate boxes:
+  1. Label "Product total", value "248.6 L".
+  2. Label "Waste total", value "106.5 L".
+  3. Label "Production time", value "18.4 h".
+  4. Label "Starts", value "142".
+- Use data type around18px at intended size, labels around10.5–11px, units smaller and precisely on the numeric baseline. All numbers stay dark ink. Align all four labels and all four value baselines. All labels fit without awkward line wrapping. Do not confuse production time with device uptime.
+- Move the previous UV state to the top right header's small status text: small blue dot then "Purifying · UV on", followed by the understated details chevron. Keep enough space between the left "Water purifier" title and right status. No badge or colored background.
+Preserve the other content:
+- Left quality readout "Product TDS", "8 ppm", "Feed 186 ppm".
+- Right trend titled "Last 6h", the same restrained blue line / subtle area wash, y references12 and8, labels "6h ago" and "Now", ending at8.
+- Bottom filter care row: restrained amber rail, label "Filter care", primary text "PP sediment · Replacement due", right "1 due" and a chevron. This is a sample maintenance reminder, not an electrical fault.
+The resulting compact hierarchy is current water quality and short-term trend → cumulative historical usage → actionable maintenance reminder.
+Important: displayed totals are CUMULATIVE counters. Do not label them Today, Last6h, This week or All time; no unverified counter start date. Do not invent four mini history graphs beneath these counters, daily differences, percentages, UV lifetime, filter life days, or performance claims. All values and the due reminder are illustrative design data, not a report about the user's actual purifier.
+White surface, thin cool-gray borders, 14px-equivalent radius, subtle shadow; water blue only for active state/graph, dark graphite figures, muted slate captions and muted amber only for the reminder. No big icons, diagrams, buttons, controls, gradient backgrounds, extra panels or decoration. Maintain the entire card size by reducing unnecessary internal gaps slightly; do not enlarge it into a full dashboard.

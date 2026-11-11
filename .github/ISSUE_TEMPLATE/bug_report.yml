@@ -1,0 +1,58 @@
+name: Bug report
+description: Report a card display, configuration, or compatibility problem.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Remove tokens, passwords, broker addresses, location names, and private identifiers.
+        This card is read-only; firmware or MQTT transport problems may need a separate report.
+  - type: input
+    id: version
+    attributes:
+      label: Card version
+      description: Version or commit, and whether installation was through HACS or manual.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Home Assistant version, HACS version if used, browser/app version, and device type.
+    validations:
+      required: true
+  - type: input
+    id: locale
+    attributes:
+      label: Language and regional settings
+      description: HA profile language, card language option, number format, and timezone if relevant.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: config
+    attributes:
+      label: Sanitized card YAML
+      render: yaml
+    validations:
+      required: true
+  - type: textarea
+    id: states
+    attributes:
+      label: Relevant entity states and attributes
+      description: Include unknown/unavailable states and units if relevant. Do not paste credentials.
+      render: yaml
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshot and browser error
+      description: Add a screenshot and the specific console error, if available.
